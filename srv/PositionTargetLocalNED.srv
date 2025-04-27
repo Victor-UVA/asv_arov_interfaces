@@ -1,0 +1,21 @@
+# Target position in local NED frame
+float x
+float y
+float z
+
+# Target velocity
+float vx
+float vy
+float vz
+
+# Target acceleration
+float ax
+float ay
+float az
+
+# Target yaw and rate
+float yaw
+float yaw_rate
+---
+# Whether the target position was successfully set
+bool position_target_set
