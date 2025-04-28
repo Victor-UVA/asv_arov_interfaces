@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetRecording.srv"
   "srv/PositionTargetLocalNED.srv"
   "srv/SetMAVMode.srv"
+  "srv/SetArmDisarm.srv"
  )
 ament_export_dependencies(rosidl_default_runtime)
 

@@ -1,0 +1,4 @@
+# True = arm, False = disarm
+bool set_arm
+---
+bool arm_state
