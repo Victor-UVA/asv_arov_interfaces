@@ -1,0 +1,4 @@
+# MAVLink mode to set the vehicle to
+string mode
+---
+bool mode_set
