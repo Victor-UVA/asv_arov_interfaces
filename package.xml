@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>bluerov_interfaces</name>
+  <name>asv_arov_interfaces</name>
   <version>0.0.0</version>
-  <description>Package for message and service interfaces for use in the bluerov package</description>
+  <description>Package for message and service interfaces for use in the asv_arov_router package</description>
   <maintainer email="abo7fg@virginia.edu">malori</maintainer>
   <license>Apache-2.0</license>
 
