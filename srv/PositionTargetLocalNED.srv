@@ -16,6 +16,9 @@ float32 az
 # Target yaw and rate
 float32 yaw
 float32 yaw_rate
+
+# Bit mask for which values to use
+uint16 bit_mask
 ---
 # Whether the target position was successfully set
 bool position_target_set
