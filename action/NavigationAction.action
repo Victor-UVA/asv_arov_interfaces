@@ -1,6 +1,6 @@
-PoseStamped goal
+float32[] goal
 int32 mode
 ---
 bool goal_reached
 ---
-PoseStamped current_pose
+float32[] current_pose
