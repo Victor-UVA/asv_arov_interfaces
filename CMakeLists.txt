@@ -17,8 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/NavigateAprilTags.action"
   "action/ControlModeAction.action"
   "action/NavigationAction.action"
-  "GoToDepth.action"
-  "GoToSide.action"
+  "action/GoToDepth.action"
+  "action/GoToSide.action"
  )
 ament_export_dependencies(rosidl_default_runtime)
 
