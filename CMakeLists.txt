@@ -14,9 +14,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PositionTargetLocalNED.srv"
   "srv/SetMAVMode.srv"
   "srv/SetArmDisarm.srv"
-  "action/CleaningAction.action"
+  "action/NavigateAprilTags.action"
   "action/ControlModeAction.action"
   "action/NavigationAction.action"
+  "GoToDepth.action"
+  "GoToSide.action"
  )
 ament_export_dependencies(rosidl_default_runtime)
 
