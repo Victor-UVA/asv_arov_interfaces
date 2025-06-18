@@ -8,18 +8,20 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetRecording.srv"
   "srv/PositionTargetLocalNED.srv"
   "srv/SetMAVMode.srv"
   "srv/SetArmDisarm.srv"
+  "srv/GetOdom.srv"
   "action/NavigateAprilTags.action"
   "action/ControlModeAction.action"
   "action/NavigationAction.action"
   "action/GoToDepth.action"
   "action/GoToSide.action"
-  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
+  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs nav_msgs
  )
 ament_export_dependencies(rosidl_default_runtime)
 
