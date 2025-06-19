@@ -1,0 +1,7 @@
+geometry_msgs/PoseStamped goal
+geometry_msgs/PoseStamped init_pose
+int32 mode
+---
+bool goal_reached
+---
+geometry_msgs/PoseStamped current_pose
