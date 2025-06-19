@@ -1,6 +1,6 @@
-float32[] goal
+geometry_msgs/PoseStamped goal
 int32 mode
 ---
 bool goal_reached
 ---
-float32[] current_pose
+geometry_msgs/PoseStamped[] current_pose
