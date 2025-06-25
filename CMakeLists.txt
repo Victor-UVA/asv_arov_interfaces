@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetMAVMode.srv"
   "srv/SetArmDisarm.srv"
   "srv/GetOdom.srv"
+  "srv/SetPump.srv"
   "action/NavigateAprilTags.action"
   "action/ControlModeAction.action"
   "action/NavigationAction.action"
