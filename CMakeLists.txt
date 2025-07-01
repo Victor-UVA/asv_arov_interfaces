@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/GoToDepth.action"
   "action/GoToSide.action"
   "action/AROVCommandAction.action"
+  "action/DumbCleanAction.action
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs nav_msgs
  )
 ament_export_dependencies(rosidl_default_runtime)
